@@ -11,12 +11,12 @@ public class PatikaProje {
 		System.out.print("Kimya notunu giriniz: ");
 		int kim = input.nextInt();
 		System.out.print("Türkçe notunu giriniz: ");
-		int tür = input.nextInt();
+		int tur = input.nextInt();
 		System.out.print("Tarih notunu giriniz: ");
 		int tar = input.nextInt();
 		System.out.print("Müzik  notunu giriniz: ");
-		int müz = input.nextInt();
-		double ortalama = (double)(mat + fiz + kim + tür + tar + müz) / 6;
+		int muz = input.nextInt();
+		double ortalama = (double)(mat + fiz + kim + tur + tar + muz) / 6;
 		System.out.println("Ortalama -> " + ortalama);
 		System.out.print((ortalama > 60)? "Sınıfı Geçti" : "Sınıfta Kaldı");
 	}
